@@ -2,13 +2,13 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const eks = require("./ekstra.json");
 
-var prefix = "v!";
+var prefix = "z+";
 
 client.on('ready', () => {
   console.log('Giriş sağlandı');
   console.log("Önek(Prefix): " + prefix);
   console.log("Bot ID'si:" + client.user.id);
-  client.user.setGame('İçim kıpır kıpır versus bot');
+  client.user.setGame('z+ | Zappara BETA | www.Zappara.cf');
 });
 
 client.on('message', msg => {
