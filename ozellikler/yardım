@@ -1,4 +1,4 @@
-client.on('message', msg => {
+exports.run = (client, message, args) => {
   if (msg.content === '@Zappara TEST#2406 yardım') {
     const embed = new Discord.RichEmbed()
       .setColor("RED")
