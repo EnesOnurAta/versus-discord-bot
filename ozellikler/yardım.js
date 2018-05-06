@@ -1,3 +1,4 @@
+const Discord = require('discord.js');
 exports.run = (client, message, args) => {
   if (msg.content === '@Zappara TEST#2406 yardım') {
     const embed = new Discord.RichEmbed()
