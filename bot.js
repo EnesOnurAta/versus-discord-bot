@@ -21,7 +21,11 @@ client.on('message', msg => {
     msg.reply('Efendim');
   }
 });
-
+client.on('message', msg => {
+  if (msg.content === '@Zappara TEST') {
+    msg.reply('Efendim');
+  }
+});
 
 
 
